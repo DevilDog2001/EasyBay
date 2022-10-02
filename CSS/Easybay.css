@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#container{
+    margin: 0 auto;
+    width: 980px;
+}
+.nav{
+    margin-top: -38px;
+    height: 135px;
+    border-bottom: 4px solid black;
+}
+.T_search{
+    width: 959px;
+    display: flex;
+    justify-content: space-between;
+}
+.T_name{
+    font-size: 28px;
+    margin-left: -20px;
+    margin-top: 55px;
+}
+.w_leaf{
+    height: 40px;
+    width: 45px;
+}
+.T_sign{
+    margin-right: -20px;
+}
+.T_leaf{
+    margin-right:10px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 45px;
+    background-color: lightseagreen;
+}
+.searchbar{
+    width: 645px;
+    padding: 8px;
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color: rgb(235, 234, 234);
+    border: 2px solid rgb(190, 189, 189);
+}
+#Cart{
+    height: 35px;
+    margin-left: 55px;
+    margin-right: -10px;
+}
+.nav_link1{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 55px;
+} 
+.nav_links2{
+    width: 970px;
+    display: flex;
+    list-style: none;
+    margin-top: 13px;
+    justify-content: space-between;
+}
+.Descr{
+    font-size: 40px;
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main_c{
+    display: flex;
+}
+.row1{
+    flex: 1;
+}
+.row2{
+    flex: 2;
+}
+.content1{
+    display: flex;
+}
+.p_1{
+    width: 330px;
+    color: white;
+    font-size: 28px;    
+    text-align: center;
+    background-color: lightseagreen;
+}
+.text1{
+    width: 300px;
+    margin-top: 30px;
+}
+#plant1{
+    height: 265px;
+    width: 275px;
+}
+.discov{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 85px
+}
+.L_arrow{
+    height: 25px;
+    width: 30px;
+    margin-left: 5px;
+}
+.R_arrow{
+    height: 20px;
+    width: 25px;
+    margin-top: 17px;
+    margin-left: 5px;
+}
+.R_plant{
+    margin-left: 20px;
+    height: 190px;
+    width: 330px;
+}
+.content2{
+    width: 320px;
+    height: 50px;
+    margin-top: 12px;
+    margin-left: 20px;
+    padding: 5px;
+    display: flex;
+    color: white;
+    background-color: lightseagreen;
+}
+.text2{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.lower_c{
+    height: 200px;
+    width: 955px;
+    margin-top: 15px;
+    background-color: rgb(105, 224, 218);
+}
+.All_plant_size{
+    margin-top: 30px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.plants{
+    display: flex;
+    justify-content: space-evenly;
+}
+.plant_name{
+    width: 860px;
+    display: flex;
+    list-style: none;
+    margin-top: 8px;
+    margin-left: 60px;
+    justify-content: space-between;
+}
+#alert{
+    display: flex;
+    width: 953px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border: 2px solid black;
+    position:relative;
+    bottom: 35px;
+    background-color: white;
+    justify-content: space-between;
+}
+#btn{
+    height: 32px;
+    width: 84px;
+    color: rgb(255, 255, 255);
+    background-color: lightseagreen;
+    border: 2px solid black;
+    font-size: 18px;
+    box-shadow: 5px 5px black;
+    margin-right: 35px;
+}
+.alert1{
+    margin-left: 20px;
+}

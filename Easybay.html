@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/Easybay.css">
+    <title>EasyBay</title>
+</head>
+<body>
+    <div id ="container">
+        <div class="nav">
+            <div class="T_search">
+                <div class="T_leaf">
+                    <img src="./images/assets/leaf.png" alt="White Leaf" class="w_leaf">
+                </div>
+                <h1 class="T_name">EasyBay</h1>
+                <ul class="nav_link1">
+                    <li><input class="searchbar" type="text"  placeholder="  Search for anything"></li>
+                    <li class="T_sign">Sign in </li>
+                    <li><img onclick="alertz()" src="./images/assets/cart-dark.png" alt="Cart" id="Cart"></li>
+                </ul>
+            </div>
+            <ul class="nav_links2">
+                <li>Aeonium</li>
+                <li>Andormischus</li>
+                <li>Agave</li>
+                <li>Aloe</li>
+                <li>Anacampseros</li>
+                <li>Aristaloe</li>
+                <li>More...</li>
+            </ul>
+        </div>
+        <p class="Descr">Your Source for Serious Succulent Specialties</p>
+        <div class="main_c">
+            <div class="row1">
+                <div class="content1">
+                    <div class="p_1">
+                        <p class="text1">Discover succ-<br>ulent varieties<br>one pot or rack <br>at a time!</p>
+                        <div class="discov">
+                            <p>Discover</p>
+                            <img src="./images/assets/arrow-light.png" alt="Arrow" class="L_arrow">
+                        </div>
+                    </div>
+                    <img onmouseover="secondPhoto1()" onmouseout="secondPhoto2()" src="./images/assets/succulents-1.jpg" alt="Succulents1" id="plant1">
+                </div>
+            </div>
+            <div class="row2">
+                <div class="plant2">
+                    <img src="./images/assets/aloe-m.jpg" alt="Right_pic" class="R_plant">
+                </div>
+                <div class="content2">
+                    <p class="text2">Soothing aloe</p>
+                    <img src="./images/assets/arrow-light.png" alt="R_arrow" class="R_arrow">
+                </div>
+            </div>
+        </div>
+        <div class="lower_c">
+            <div class="plants">
+                <img src="./images/assets/aeonium-s.jpg" alt="aeonium" class="All_plant_size">
+                <img src="./images/assets/aloe-s.jpg" alt="aloe" class="All_plant_size">
+                <img src="./images/assets/cactus-s.jpg" alt="cactus" class="All_plant_size">
+                <img src="./images/assets/echeveria-s.jpg" alt="echeveria" class="All_plant_size">
+                <img src="./images/assets/sedum-s.jpg" alt="sedum" class="All_plant_size">
+                <img src="./images/assets/sempervivum-s.jpg" alt="sempervivum" class="All_plant_size">
+            </div>
+            <ul class="plant_name">
+                <li>Aeonium</li>
+                <li>Aloe</li>
+                <li>Cactus</li>
+                <li>Echeveria</li>
+                <li>Sedum</li>
+                <li>Sempervivum</li>
+            </ul>
+        </div>
+        <div id="alert">
+            <img src="./images/assets/alert-dark.png" alt="alert" class="alert1">
+            <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the<br>terms outlined in our <a href="#">cookie policy.</a></p>
+            <button id="btn" onclick="accepted()"> I Accept</button>
+        </div>
+    </div>
+    <script src="./Easybay.js"></script>
+</body>
+</html>
